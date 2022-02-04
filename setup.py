@@ -6,16 +6,16 @@ EXTRAS_REQUIRE = {
     "yaml": ["PyYAML>=3.10"],
     "validation": ["prance[osv]>=0.11"],
     "lint": [
-        "mypy==0.910",
+        "mypy==0.931",
         "flake8==4.0.1",
-        "flake8-bugbear==21.11.29",
+        "flake8-bugbear==22.1.11",
         "pre-commit~=2.4",
     ],
     "docs": [
         "marshmallow>=3.13.0",
         "pyyaml==6.0",
-        "sphinx==4.3.1",
-        "sphinx-issues==1.2.0",
+        "sphinx==4.4.0",
+        "sphinx-issues==3.0.1",
         "sphinx-rtd-theme==1.0.0",
     ],
 }
@@ -66,11 +66,10 @@ setup(
     license="MIT",
     zip_safe=False,
     keywords="apispec swagger openapi specification oas documentation spec rest api",
-    python_requires=">=3.6",
+    python_requires=">=3.7",
     classifiers=[
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
